@@ -10,14 +10,14 @@
  * ========================================
 */
 #include "project.h"
-
+int a;
 int main(void)
 {
     uint8 compare = 0;
     uint8 buf[1];
     buf[0] = 0;
     CyGlobalIntEnable; /* Enable global interrupts. */
-
+    a=a;
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
     
     I2C_Start();
