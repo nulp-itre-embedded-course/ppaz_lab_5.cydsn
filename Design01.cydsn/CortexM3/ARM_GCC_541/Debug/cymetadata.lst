@@ -1,0 +1,1398 @@
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"cymetadata.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_metadata
+  20              		.global	cy_meta_flashprotect
+  21              		.global	cy_meta_wonvl
+  22              		.global	cy_meta_custnvl
+  23              		.global	cy_meta_configecc
+  24              		.section	.cyconfigecc,"a",%progbits
+  25              		.align	2
+  26              		.type	cy_meta_configecc, %object
+  27              		.size	cy_meta_configecc, 864
+  28              	cy_meta_configecc:
+  29 0000 03       		.byte	3
+  30 0001 65       		.byte	101
+  31 0002 00       		.byte	0
+  32 0003 40       		.byte	64
+  33 0004 02       		.byte	2
+  34 0005 09       		.byte	9
+  35 0006 01       		.byte	1
+  36 0007 40       		.byte	64
+  37 0008 01       		.byte	1
+  38 0009 15       		.byte	21
+  39 000a 01       		.byte	1
+  40 000b 40       		.byte	64
+  41 000c 14       		.byte	20
+  42 000d 18       		.byte	24
+  43 000e 01       		.byte	1
+  44 000f 40       		.byte	64
+  45 0010 38       		.byte	56
+  46 0011 19       		.byte	25
+  47 0012 01       		.byte	1
+  48 0013 40       		.byte	64
+  49 0014 70       		.byte	112
+  50 0015 1A       		.byte	26
+  51 0016 01       		.byte	1
+  52 0017 40       		.byte	64
+  53 0018 53       		.byte	83
+  54 0019 1B       		.byte	27
+  55 001a 01       		.byte	1
+  56 001b 40       		.byte	64
+  57 001c 02       		.byte	2
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 2
+
+
+  58 001d 42       		.byte	66
+  59 001e 01       		.byte	1
+  60 001f 40       		.byte	64
+  61 0020 01       		.byte	1
+  62 0021 43       		.byte	67
+  63 0022 01       		.byte	1
+  64 0023 40       		.byte	64
+  65 0024 05       		.byte	5
+  66 0025 44       		.byte	68
+  67 0026 01       		.byte	1
+  68 0027 40       		.byte	64
+  69 0028 02       		.byte	2
+  70 0029 45       		.byte	69
+  71 002a 01       		.byte	1
+  72 002b 40       		.byte	64
+  73 002c 02       		.byte	2
+  74 002d 46       		.byte	70
+  75 002e 01       		.byte	1
+  76 002f 40       		.byte	64
+  77 0030 03       		.byte	3
+  78 0031 47       		.byte	71
+  79 0032 01       		.byte	1
+  80 0033 40       		.byte	64
+  81 0034 01       		.byte	1
+  82 0035 48       		.byte	72
+  83 0036 01       		.byte	1
+  84 0037 40       		.byte	64
+  85 0038 02       		.byte	2
+  86 0039 49       		.byte	73
+  87 003a 01       		.byte	1
+  88 003b 40       		.byte	64
+  89 003c 08       		.byte	8
+  90 003d 4C       		.byte	76
+  91 003e 01       		.byte	1
+  92 003f 40       		.byte	64
+  93 0040 0A       		.byte	10
+  94 0041 4D       		.byte	77
+  95 0042 01       		.byte	1
+  96 0043 40       		.byte	64
+  97 0044 02       		.byte	2
+  98 0045 50       		.byte	80
+  99 0046 01       		.byte	1
+ 100 0047 40       		.byte	64
+ 101 0048 01       		.byte	1
+ 102 0049 51       		.byte	81
+ 103 004a 01       		.byte	1
+ 104 004b 40       		.byte	64
+ 105 004c 88       		.byte	-120
+ 106 004d 72       		.byte	114
+ 107 004e 89       		.byte	-119
+ 108 004f 38       		.byte	56
+ 109 0050 8B       		.byte	-117
+ 110 0051 0F       		.byte	15
+ 111 0052 85       		.byte	-123
+ 112 0053 20       		.byte	32
+ 113 0054 E0       		.byte	-32
+ 114 0055 08       		.byte	8
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 3
+
+
+ 115 0056 EA       		.byte	-22
+ 116 0057 01       		.byte	1
+ 117 0058 8A       		.byte	-118
+ 118 0059 04       		.byte	4
+ 119 005a 92       		.byte	-110
+ 120 005b 04       		.byte	4
+ 121 005c 96       		.byte	-106
+ 122 005d 02       		.byte	2
+ 123 005e 99       		.byte	-103
+ 124 005f 01       		.byte	1
+ 125 0060 9A       		.byte	-102
+ 126 0061 02       		.byte	2
+ 127 0062 A4       		.byte	-92
+ 128 0063 01       		.byte	1
+ 129 0064 A8       		.byte	-88
+ 130 0065 01       		.byte	1
+ 131 0066 AC       		.byte	-84
+ 132 0067 01       		.byte	1
+ 133 0068 B0       		.byte	-80
+ 134 0069 02       		.byte	2
+ 135 006a B2       		.byte	-78
+ 136 006b 04       		.byte	4
+ 137 006c B5       		.byte	-75
+ 138 006d 01       		.byte	1
+ 139 006e B6       		.byte	-74
+ 140 006f 01       		.byte	1
+ 141 0070 BB       		.byte	-69
+ 142 0071 08       		.byte	8
+ 143 0072 BE       		.byte	-66
+ 144 0073 05       		.byte	5
+ 145 0074 BF       		.byte	-65
+ 146 0075 10       		.byte	16
+ 147 0076 D4       		.byte	-44
+ 148 0077 18       		.byte	24
+ 149 0078 D8       		.byte	-40
+ 150 0079 04       		.byte	4
+ 151 007a D9       		.byte	-39
+ 152 007b 04       		.byte	4
+ 153 007c DB       		.byte	-37
+ 154 007d 04       		.byte	4
+ 155 007e DF       		.byte	-33
+ 156 007f 01       		.byte	1
+ 157 0080 03       		.byte	3
+ 158 0081 08       		.byte	8
+ 159 0082 04       		.byte	4
+ 160 0083 10       		.byte	16
+ 161 0084 05       		.byte	5
+ 162 0085 08       		.byte	8
+ 163 0086 06       		.byte	6
+ 164 0087 41       		.byte	65
+ 165 0088 07       		.byte	7
+ 166 0089 10       		.byte	16
+ 167 008a 09       		.byte	9
+ 168 008b 11       		.byte	17
+ 169 008c 0A       		.byte	10
+ 170 008d 20       		.byte	32
+ 171 008e 0C       		.byte	12
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 4
+
+
+ 172 008f 10       		.byte	16
+ 173 0090 0E       		.byte	14
+ 174 0091 61       		.byte	97
+ 175 0092 0F       		.byte	15
+ 176 0093 10       		.byte	16
+ 177 0094 10       		.byte	16
+ 178 0095 22       		.byte	34
+ 179 0096 11       		.byte	17
+ 180 0097 10       		.byte	16
+ 181 0098 15       		.byte	21
+ 182 0099 01       		.byte	1
+ 183 009a 16       		.byte	22
+ 184 009b 02       		.byte	2
+ 185 009c 17       		.byte	23
+ 186 009d 28       		.byte	40
+ 187 009e 1A       		.byte	26
+ 188 009f 01       		.byte	1
+ 189 00a0 1B       		.byte	27
+ 190 00a1 45       		.byte	69
+ 191 00a2 1E       		.byte	30
+ 192 00a3 64       		.byte	100
+ 193 00a4 1F       		.byte	31
+ 194 00a5 44       		.byte	68
+ 195 00a6 20       		.byte	32
+ 196 00a7 10       		.byte	16
+ 197 00a8 21       		.byte	33
+ 198 00a9 28       		.byte	40
+ 199 00aa 22       		.byte	34
+ 200 00ab 08       		.byte	8
+ 201 00ac 25       		.byte	37
+ 202 00ad 11       		.byte	17
+ 203 00ae 27       		.byte	39
+ 204 00af 10       		.byte	16
+ 205 00b0 2E       		.byte	46
+ 206 00b1 0A       		.byte	10
+ 207 00b2 2F       		.byte	47
+ 208 00b3 04       		.byte	4
+ 209 00b4 33       		.byte	51
+ 210 00b5 20       		.byte	32
+ 211 00b6 35       		.byte	53
+ 212 00b7 40       		.byte	64
+ 213 00b8 36       		.byte	54
+ 214 00b9 0A       		.byte	10
+ 215 00ba 37       		.byte	55
+ 216 00bb 10       		.byte	16
+ 217 00bc 3D       		.byte	61
+ 218 00bd 08       		.byte	8
+ 219 00be 3E       		.byte	62
+ 220 00bf 60       		.byte	96
+ 221 00c0 45       		.byte	69
+ 222 00c1 18       		.byte	24
+ 223 00c2 47       		.byte	71
+ 224 00c3 40       		.byte	64
+ 225 00c4 4E       		.byte	78
+ 226 00c5 12       		.byte	18
+ 227 00c6 4F       		.byte	79
+ 228 00c7 90       		.byte	-112
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 5
+
+
+ 229 00c8 57       		.byte	87
+ 230 00c9 08       		.byte	8
+ 231 00ca 5B       		.byte	91
+ 232 00cb 01       		.byte	1
+ 233 00cc 5E       		.byte	94
+ 234 00cd 04       		.byte	4
+ 235 00ce 63       		.byte	99
+ 236 00cf 0A       		.byte	10
+ 237 00d0 6C       		.byte	108
+ 238 00d1 22       		.byte	34
+ 239 00d2 6D       		.byte	109
+ 240 00d3 10       		.byte	16
+ 241 00d4 75       		.byte	117
+ 242 00d5 40       		.byte	64
+ 243 00d6 76       		.byte	118
+ 244 00d7 29       		.byte	41
+ 245 00d8 77       		.byte	119
+ 246 00d9 28       		.byte	40
+ 247 00da A5       		.byte	-91
+ 248 00db 20       		.byte	32
+ 249 00dc C0       		.byte	-64
+ 250 00dd F2       		.byte	-14
+ 251 00de C2       		.byte	-62
+ 252 00df FE       		.byte	-2
+ 253 00e0 C4       		.byte	-60
+ 254 00e1 F7       		.byte	-9
+ 255 00e2 CA       		.byte	-54
+ 256 00e3 E0       		.byte	-32
+ 257 00e4 CC       		.byte	-52
+ 258 00e5 F4       		.byte	-12
+ 259 00e6 CE       		.byte	-50
+ 260 00e7 70       		.byte	112
+ 261 00e8 D0       		.byte	-48
+ 262 00e9 70       		.byte	112
+ 263 00ea D2       		.byte	-46
+ 264 00eb 30       		.byte	48
+ 265 00ec D6       		.byte	-42
+ 266 00ed 41       		.byte	65
+ 267 00ee D8       		.byte	-40
+ 268 00ef 0C       		.byte	12
+ 269 00f0 05       		.byte	5
+ 270 00f1 80       		.byte	-128
+ 271 00f2 07       		.byte	7
+ 272 00f3 13       		.byte	19
+ 273 00f4 08       		.byte	8
+ 274 00f5 10       		.byte	16
+ 275 00f6 0A       		.byte	10
+ 276 00f7 AC       		.byte	-84
+ 277 00f8 0F       		.byte	15
+ 278 00f9 0C       		.byte	12
+ 279 00fa 10       		.byte	16
+ 280 00fb 09       		.byte	9
+ 281 00fc 12       		.byte	18
+ 282 00fd D0       		.byte	-48
+ 283 00fe 14       		.byte	20
+ 284 00ff 14       		.byte	20
+ 285 0100 15       		.byte	21
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 6
+
+
+ 286 0101 2C       		.byte	44
+ 287 0102 17       		.byte	23
+ 288 0103 43       		.byte	67
+ 289 0104 1A       		.byte	26
+ 290 0105 03       		.byte	3
+ 291 0106 1C       		.byte	28
+ 292 0107 0C       		.byte	12
+ 293 0108 1E       		.byte	30
+ 294 0109 71       		.byte	113
+ 295 010a 1F       		.byte	31
+ 296 010b 08       		.byte	8
+ 297 010c 20       		.byte	32
+ 298 010d 10       		.byte	16
+ 299 010e 21       		.byte	33
+ 300 010f 71       		.byte	113
+ 301 0110 22       		.byte	34
+ 302 0111 40       		.byte	64
+ 303 0112 23       		.byte	35
+ 304 0113 0E       		.byte	14
+ 305 0114 25       		.byte	37
+ 306 0115 71       		.byte	113
+ 307 0116 26       		.byte	38
+ 308 0117 20       		.byte	32
+ 309 0118 27       		.byte	39
+ 310 0119 06       		.byte	6
+ 311 011a 28       		.byte	40
+ 312 011b DC       		.byte	-36
+ 313 011c 2A       		.byte	42
+ 314 011d 22       		.byte	34
+ 315 011e 30       		.byte	48
+ 316 011f E0       		.byte	-32
+ 317 0120 31       		.byte	49
+ 318 0121 C0       		.byte	-64
+ 319 0122 33       		.byte	51
+ 320 0123 0F       		.byte	15
+ 321 0124 34       		.byte	52
+ 322 0125 1F       		.byte	31
+ 323 0126 35       		.byte	53
+ 324 0127 30       		.byte	48
+ 325 0128 39       		.byte	57
+ 326 0129 22       		.byte	34
+ 327 012a 3A       		.byte	58
+ 328 012b 02       		.byte	2
+ 329 012c 3B       		.byte	59
+ 330 012d 08       		.byte	8
+ 331 012e 3F       		.byte	63
+ 332 012f 10       		.byte	16
+ 333 0130 40       		.byte	64
+ 334 0131 02       		.byte	2
+ 335 0132 45       		.byte	69
+ 336 0133 40       		.byte	64
+ 337 0134 49       		.byte	73
+ 338 0135 FF       		.byte	-1
+ 339 0136 4A       		.byte	74
+ 340 0137 07       		.byte	7
+ 341 0138 4B       		.byte	75
+ 342 0139 FF       		.byte	-1
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 7
+
+
+ 343 013a 4C       		.byte	76
+ 344 013b 40       		.byte	64
+ 345 013c 4D       		.byte	77
+ 346 013d 20       		.byte	32
+ 347 013e 4E       		.byte	78
+ 348 013f F0       		.byte	-16
+ 349 0140 4F       		.byte	79
+ 350 0141 05       		.byte	5
+ 351 0142 50       		.byte	80
+ 352 0143 08       		.byte	8
+ 353 0144 58       		.byte	88
+ 354 0145 04       		.byte	4
+ 355 0146 59       		.byte	89
+ 356 0147 04       		.byte	4
+ 357 0148 5A       		.byte	90
+ 358 0149 04       		.byte	4
+ 359 014a 5F       		.byte	95
+ 360 014b 01       		.byte	1
+ 361 014c 60       		.byte	96
+ 362 014d 40       		.byte	64
+ 363 014e 61       		.byte	97
+ 364 014f A8       		.byte	-88
+ 365 0150 62       		.byte	98
+ 366 0151 40       		.byte	64
+ 367 0152 63       		.byte	99
+ 368 0153 20       		.byte	32
+ 369 0154 80       		.byte	-128
+ 370 0155 13       		.byte	19
+ 371 0156 81       		.byte	-127
+ 372 0157 11       		.byte	17
+ 373 0158 82       		.byte	-126
+ 374 0159 04       		.byte	4
+ 375 015a 83       		.byte	-125
+ 376 015b 68       		.byte	104
+ 377 015c 84       		.byte	-124
+ 378 015d 13       		.byte	19
+ 379 015e 85       		.byte	-123
+ 380 015f 30       		.byte	48
+ 381 0160 86       		.byte	-122
+ 382 0161 0C       		.byte	12
+ 383 0162 88       		.byte	-120
+ 384 0163 80       		.byte	-128
+ 385 0164 89       		.byte	-119
+ 386 0165 30       		.byte	48
+ 387 0166 8A       		.byte	-118
+ 388 0167 20       		.byte	32
+ 389 0168 8C       		.byte	-116
+ 390 0169 40       		.byte	64
+ 391 016a 8E       		.byte	-114
+ 392 016b 20       		.byte	32
+ 393 016c 8F       		.byte	-113
+ 394 016d 03       		.byte	3
+ 395 016e 92       		.byte	-110
+ 396 016f 08       		.byte	8
+ 397 0170 94       		.byte	-108
+ 398 0171 0A       		.byte	10
+ 399 0172 95       		.byte	-107
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 8
+
+
+ 400 0173 03       		.byte	3
+ 401 0174 96       		.byte	-106
+ 402 0175 14       		.byte	20
+ 403 0176 98       		.byte	-104
+ 404 0177 E0       		.byte	-32
+ 405 0178 99       		.byte	-103
+ 406 0179 22       		.byte	34
+ 407 017a 9B       		.byte	-101
+ 408 017b 18       		.byte	24
+ 409 017c 9C       		.byte	-100
+ 410 017d 20       		.byte	32
+ 411 017e 9E       		.byte	-98
+ 412 017f C0       		.byte	-64
+ 413 0180 A1       		.byte	-95
+ 414 0181 03       		.byte	3
+ 415 0182 A3       		.byte	-93
+ 416 0183 04       		.byte	4
+ 417 0184 A6       		.byte	-90
+ 418 0185 15       		.byte	21
+ 419 0186 A7       		.byte	-89
+ 420 0187 03       		.byte	3
+ 421 0188 A8       		.byte	-88
+ 422 0189 E0       		.byte	-32
+ 423 018a A9       		.byte	-87
+ 424 018b 03       		.byte	3
+ 425 018c AC       		.byte	-84
+ 426 018d 03       		.byte	3
+ 427 018e AE       		.byte	-82
+ 428 018f 14       		.byte	20
+ 429 0190 AF       		.byte	-81
+ 430 0191 03       		.byte	3
+ 431 0192 B0       		.byte	-80
+ 432 0193 10       		.byte	16
+ 433 0194 B1       		.byte	-79
+ 434 0195 0C       		.byte	12
+ 435 0196 B2       		.byte	-78
+ 436 0197 0F       		.byte	15
+ 437 0198 B3       		.byte	-77
+ 438 0199 40       		.byte	64
+ 439 019a B5       		.byte	-75
+ 440 019b 30       		.byte	48
+ 441 019c B6       		.byte	-74
+ 442 019d E0       		.byte	-32
+ 443 019e B7       		.byte	-73
+ 444 019f 03       		.byte	3
+ 445 01a0 BA       		.byte	-70
+ 446 01a1 08       		.byte	8
+ 447 01a2 BE       		.byte	-66
+ 448 01a3 01       		.byte	1
+ 449 01a4 BF       		.byte	-65
+ 450 01a5 01       		.byte	1
+ 451 01a6 C0       		.byte	-64
+ 452 01a7 26       		.byte	38
+ 453 01a8 C1       		.byte	-63
+ 454 01a9 04       		.byte	4
+ 455 01aa C5       		.byte	-59
+ 456 01ab 0B       		.byte	11
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 9
+
+
+ 457 01ac C6       		.byte	-58
+ 458 01ad 0E       		.byte	14
+ 459 01ae C7       		.byte	-57
+ 460 01af C0       		.byte	-64
+ 461 01b0 C8       		.byte	-56
+ 462 01b1 25       		.byte	37
+ 463 01b2 C9       		.byte	-55
+ 464 01b3 FF       		.byte	-1
+ 465 01b4 CA       		.byte	-54
+ 466 01b5 FF       		.byte	-1
+ 467 01b6 CB       		.byte	-53
+ 468 01b7 FF       		.byte	-1
+ 469 01b8 CE       		.byte	-50
+ 470 01b9 F0       		.byte	-16
+ 471 01ba CF       		.byte	-49
+ 472 01bb 44       		.byte	68
+ 473 01bc D0       		.byte	-48
+ 474 01bd 0C       		.byte	12
+ 475 01be D4       		.byte	-44
+ 476 01bf 01       		.byte	1
+ 477 01c0 D8       		.byte	-40
+ 478 01c1 04       		.byte	4
+ 479 01c2 D9       		.byte	-39
+ 480 01c3 04       		.byte	4
+ 481 01c4 DA       		.byte	-38
+ 482 01c5 04       		.byte	4
+ 483 01c6 DB       		.byte	-37
+ 484 01c7 04       		.byte	4
+ 485 01c8 DF       		.byte	-33
+ 486 01c9 01       		.byte	1
+ 487 01ca E6       		.byte	-26
+ 488 01cb C0       		.byte	-64
+ 489 01cc EA       		.byte	-22
+ 490 01cd 40       		.byte	64
+ 491 01ce EB       		.byte	-21
+ 492 01cf 02       		.byte	2
+ 493 01d0 02       		.byte	2
+ 494 01d1 04       		.byte	4
+ 495 01d2 05       		.byte	5
+ 496 01d3 05       		.byte	5
+ 497 01d4 06       		.byte	6
+ 498 01d5 02       		.byte	2
+ 499 01d6 07       		.byte	7
+ 500 01d7 04       		.byte	4
+ 501 01d8 08       		.byte	8
+ 502 01d9 80       		.byte	-128
+ 503 01da 0A       		.byte	10
+ 504 01db 24       		.byte	36
+ 505 01dc 0B       		.byte	11
+ 506 01dd 40       		.byte	64
+ 507 01de 0C       		.byte	12
+ 508 01df 20       		.byte	32
+ 509 01e0 0D       		.byte	13
+ 510 01e1 88       		.byte	-120
+ 511 01e2 0F       		.byte	15
+ 512 01e3 44       		.byte	68
+ 513 01e4 10       		.byte	16
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 10
+
+
+ 514 01e5 80       		.byte	-128
+ 515 01e6 11       		.byte	17
+ 516 01e7 04       		.byte	4
+ 517 01e8 13       		.byte	19
+ 518 01e9 10       		.byte	16
+ 519 01ea 15       		.byte	21
+ 520 01eb 14       		.byte	20
+ 521 01ec 16       		.byte	22
+ 522 01ed 01       		.byte	1
+ 523 01ee 19       		.byte	25
+ 524 01ef 01       		.byte	1
+ 525 01f0 1A       		.byte	26
+ 526 01f1 04       		.byte	4
+ 527 01f2 1B       		.byte	27
+ 528 01f3 20       		.byte	32
+ 529 01f4 1C       		.byte	28
+ 530 01f5 40       		.byte	64
+ 531 01f6 1D       		.byte	29
+ 532 01f7 84       		.byte	-124
+ 533 01f8 1F       		.byte	31
+ 534 01f9 80       		.byte	-128
+ 535 01fa 20       		.byte	32
+ 536 01fb 04       		.byte	4
+ 537 01fc 21       		.byte	33
+ 538 01fd 08       		.byte	8
+ 539 01fe 23       		.byte	35
+ 540 01ff 50       		.byte	80
+ 541 0200 25       		.byte	37
+ 542 0201 04       		.byte	4
+ 543 0202 26       		.byte	38
+ 544 0203 20       		.byte	32
+ 545 0204 27       		.byte	39
+ 546 0205 45       		.byte	69
+ 547 0206 28       		.byte	40
+ 548 0207 80       		.byte	-128
+ 549 0208 29       		.byte	41
+ 550 0209 05       		.byte	5
+ 551 020a 2A       		.byte	42
+ 552 020b 04       		.byte	4
+ 553 020c 2D       		.byte	45
+ 554 020d 09       		.byte	9
+ 555 020e 2E       		.byte	46
+ 556 020f 40       		.byte	64
+ 557 0210 2F       		.byte	47
+ 558 0211 84       		.byte	-124
+ 559 0212 30       		.byte	48
+ 560 0213 80       		.byte	-128
+ 561 0214 31       		.byte	49
+ 562 0215 08       		.byte	8
+ 563 0216 34       		.byte	52
+ 564 0217 10       		.byte	16
+ 565 0218 36       		.byte	54
+ 566 0219 28       		.byte	40
+ 567 021a 38       		.byte	56
+ 568 021b 08       		.byte	8
+ 569 021c 39       		.byte	57
+ 570 021d 04       		.byte	4
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 11
+
+
+ 571 021e 3B       		.byte	59
+ 572 021f 40       		.byte	64
+ 573 0220 3D       		.byte	61
+ 574 0221 10       		.byte	16
+ 575 0222 3E       		.byte	62
+ 576 0223 02       		.byte	2
+ 577 0224 3F       		.byte	63
+ 578 0225 84       		.byte	-124
+ 579 0226 40       		.byte	64
+ 580 0227 04       		.byte	4
+ 581 0228 44       		.byte	68
+ 582 0229 80       		.byte	-128
+ 583 022a 46       		.byte	70
+ 584 022b 04       		.byte	4
+ 585 022c 48       		.byte	72
+ 586 022d 80       		.byte	-128
+ 587 022e 4C       		.byte	76
+ 588 022f 04       		.byte	4
+ 589 0230 4E       		.byte	78
+ 590 0231 10       		.byte	16
+ 591 0232 50       		.byte	80
+ 592 0233 04       		.byte	4
+ 593 0234 55       		.byte	85
+ 594 0235 01       		.byte	1
+ 595 0236 56       		.byte	86
+ 596 0237 41       		.byte	65
+ 597 0238 5C       		.byte	92
+ 598 0239 41       		.byte	65
+ 599 023a 5D       		.byte	93
+ 600 023b 20       		.byte	32
+ 601 023c 5F       		.byte	95
+ 602 023d 08       		.byte	8
+ 603 023e 60       		.byte	96
+ 604 023f 01       		.byte	1
+ 605 0240 62       		.byte	98
+ 606 0241 40       		.byte	64
+ 607 0242 8A       		.byte	-118
+ 608 0243 02       		.byte	2
+ 609 0244 8B       		.byte	-117
+ 610 0245 48       		.byte	72
+ 611 0246 8D       		.byte	-115
+ 612 0247 21       		.byte	33
+ 613 0248 91       		.byte	-111
+ 614 0249 10       		.byte	16
+ 615 024a 92       		.byte	-110
+ 616 024b 40       		.byte	64
+ 617 024c 93       		.byte	-109
+ 618 024d 88       		.byte	-120
+ 619 024e 95       		.byte	-107
+ 620 024f 01       		.byte	1
+ 621 0250 99       		.byte	-103
+ 622 0251 08       		.byte	8
+ 623 0252 9C       		.byte	-100
+ 624 0253 10       		.byte	16
+ 625 0254 9E       		.byte	-98
+ 626 0255 42       		.byte	66
+ 627 0256 9F       		.byte	-97
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 12
+
+
+ 628 0257 41       		.byte	65
+ 629 0258 A0       		.byte	-96
+ 630 0259 20       		.byte	32
+ 631 025a A2       		.byte	-94
+ 632 025b 08       		.byte	8
+ 633 025c A3       		.byte	-93
+ 634 025d 40       		.byte	64
+ 635 025e A5       		.byte	-91
+ 636 025f 04       		.byte	4
+ 637 0260 A7       		.byte	-89
+ 638 0261 20       		.byte	32
+ 639 0262 C0       		.byte	-64
+ 640 0263 F2       		.byte	-14
+ 641 0264 C2       		.byte	-62
+ 642 0265 FF       		.byte	-1
+ 643 0266 C4       		.byte	-60
+ 644 0267 EE       		.byte	-18
+ 645 0268 CA       		.byte	-54
+ 646 0269 F3       		.byte	-13
+ 647 026a CC       		.byte	-52
+ 648 026b 6A       		.byte	106
+ 649 026c CE       		.byte	-50
+ 650 026d FA       		.byte	-6
+ 651 026e D0       		.byte	-48
+ 652 026f A4       		.byte	-92
+ 653 0270 D2       		.byte	-46
+ 654 0271 20       		.byte	32
+ 655 0272 D6       		.byte	-42
+ 656 0273 F0       		.byte	-16
+ 657 0274 EA       		.byte	-22
+ 658 0275 01       		.byte	1
+ 659 0276 3E       		.byte	62
+ 660 0277 10       		.byte	16
+ 661 0278 CE       		.byte	-50
+ 662 0279 20       		.byte	32
+ 663 027a 96       		.byte	-106
+ 664 027b 10       		.byte	16
+ 665 027c 10       		.byte	16
+ 666 027d 10       		.byte	16
+ 667 027e 14       		.byte	20
+ 668 027f 20       		.byte	32
+ 669 0280 72       		.byte	114
+ 670 0281 20       		.byte	32
+ 671 0282 C4       		.byte	-60
+ 672 0283 0C       		.byte	12
+ 673 0284 DC       		.byte	-36
+ 674 0285 01       		.byte	1
+ 675 0286 98       		.byte	-104
+ 676 0287 30       		.byte	48
+ 677 0288 9E       		.byte	-98
+ 678 0289 20       		.byte	32
+ 679 028a 98       		.byte	-104
+ 680 028b 30       		.byte	48
+ 681 028c 9E       		.byte	-98
+ 682 028d 20       		.byte	32
+ 683 028e 86       		.byte	-122
+ 684 028f 20       		.byte	32
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 13
+
+
+ 685 0290 98       		.byte	-104
+ 686 0291 30       		.byte	48
+ 687 0292 9E       		.byte	-98
+ 688 0293 20       		.byte	32
+ 689 0294 96       		.byte	-106
+ 690 0295 10       		.byte	16
+ 691 0296 AA       		.byte	-86
+ 692 0297 10       		.byte	16
+ 693 0298 EA       		.byte	-22
+ 694 0299 80       		.byte	-128
+ 695 029a 12       		.byte	18
+ 696 029b 10       		.byte	16
+ 697 029c 13       		.byte	19
+ 698 029d 20       		.byte	32
+ 699 029e 16       		.byte	22
+ 700 029f 20       		.byte	32
+ 701 02a0 78       		.byte	120
+ 702 02a1 10       		.byte	16
+ 703 02a2 7C       		.byte	124
+ 704 02a3 20       		.byte	32
+ 705 02a4 98       		.byte	-104
+ 706 02a5 30       		.byte	48
+ 707 02a6 C4       		.byte	-60
+ 708 02a7 0E       		.byte	14
+ 709 02a8 DE       		.byte	-34
+ 710 02a9 03       		.byte	3
+ 711 02aa 10       		.byte	16
+ 712 02ab 40       		.byte	64
+ 713 02ac 72       		.byte	114
+ 714 02ad 20       		.byte	32
+ 715 02ae 76       		.byte	118
+ 716 02af 10       		.byte	16
+ 717 02b0 88       		.byte	-120
+ 718 02b1 40       		.byte	64
+ 719 02b2 9A       		.byte	-102
+ 720 02b3 30       		.byte	48
+ 721 02b4 AB       		.byte	-85
+ 722 02b5 20       		.byte	32
+ 723 02b6 C4       		.byte	-60
+ 724 02b7 08       		.byte	8
+ 725 02b8 DC       		.byte	-36
+ 726 02b9 01       		.byte	1
+ 727 02ba DE       		.byte	-34
+ 728 02bb 04       		.byte	4
+ 729 02bc E2       		.byte	-30
+ 730 02bd 01       		.byte	1
+ 731 02be 10       		.byte	16
+ 732 02bf 01       		.byte	1
+ 733 02c0 1C       		.byte	28
+ 734 02c1 01       		.byte	1
+ 735 02c2 03       		.byte	3
+ 736 02c3 C0       		.byte	-64
+ 737 02c4 10       		.byte	16
+ 738 02c5 30       		.byte	48
+ 739 02c6 00       		.byte	0
+ 740 02c7 00       		.byte	0
+ 741 02c8 40       		.byte	64
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 14
+
+
+ 742 02c9 00       		.byte	0
+ 743 02ca 00       		.byte	0
+ 744 02cb 00       		.byte	0
+ 745 02cc 40       		.byte	64
+ 746 02cd 00       		.byte	0
+ 747 02ce 00       		.byte	0
+ 748 02cf 00       		.byte	0
+ 749 02d0 1C       		.byte	28
+ 750 02d1 00       		.byte	0
+ 751 02d2 23       		.byte	35
+ 752 02d3 04       		.byte	4
+ 753 02d4 3F       		.byte	63
+ 754 02d5 18       		.byte	24
+ 755 02d6 00       		.byte	0
+ 756 02d7 00       		.byte	0
+ 757 02d8 08       		.byte	8
+ 758 02d9 1C       		.byte	28
+ 759 02da 00       		.byte	0
+ 760 02db 61       		.byte	97
+ 761 02dc 1F       		.byte	31
+ 762 02dd 00       		.byte	0
+ 763 02de 20       		.byte	32
+ 764 02df 23       		.byte	35
+ 765 02e0 33       		.byte	51
+ 766 02e1 7F       		.byte	127
+ 767 02e2 0C       		.byte	12
+ 768 02e3 00       		.byte	0
+ 769 02e4 02       		.byte	2
+ 770 02e5 3C       		.byte	60
+ 771 02e6 00       		.byte	0
+ 772 02e7 42       		.byte	66
+ 773 02e8 00       		.byte	0
+ 774 02e9 10       		.byte	16
+ 775 02ea 23       		.byte	35
+ 776 02eb 00       		.byte	0
+ 777 02ec 03       		.byte	3
+ 778 02ed 04       		.byte	4
+ 779 02ee 00       		.byte	0
+ 780 02ef 00       		.byte	0
+ 781 02f0 04       		.byte	4
+ 782 02f1 08       		.byte	8
+ 783 02f2 00       		.byte	0
+ 784 02f3 00       		.byte	0
+ 785 02f4 0C       		.byte	12
+ 786 02f5 67       		.byte	103
+ 787 02f6 00       		.byte	0
+ 788 02f7 18       		.byte	24
+ 789 02f8 01       		.byte	1
+ 790 02f9 00       		.byte	0
+ 791 02fa 00       		.byte	0
+ 792 02fb 00       		.byte	0
+ 793 02fc 2C       		.byte	44
+ 794 02fd 40       		.byte	64
+ 795 02fe 0F       		.byte	15
+ 796 02ff 1F       		.byte	31
+ 797 0300 10       		.byte	16
+ 798 0301 38       		.byte	56
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 15
+
+
+ 799 0302 40       		.byte	64
+ 800 0303 00       		.byte	0
+ 801 0304 00       		.byte	0
+ 802 0305 02       		.byte	2
+ 803 0306 0A       		.byte	10
+ 804 0307 08       		.byte	8
+ 805 0308 00       		.byte	0
+ 806 0309 00       		.byte	0
+ 807 030a 50       		.byte	80
+ 808 030b 00       		.byte	0
+ 809 030c 65       		.byte	101
+ 810 030d 03       		.byte	3
+ 811 030e 02       		.byte	2
+ 812 030f 00       		.byte	0
+ 813 0310 01       		.byte	1
+ 814 0311 0C       		.byte	12
+ 815 0312 00       		.byte	0
+ 816 0313 0E       		.byte	14
+ 817 0314 11       		.byte	17
+ 818 0315 FF       		.byte	-1
+ 819 0316 FF       		.byte	-1
+ 820 0317 FF       		.byte	-1
+ 821 0318 62       		.byte	98
+ 822 0319 A0       		.byte	-96
+ 823 031a F0       		.byte	-16
+ 824 031b 41       		.byte	65
+ 825 031c 0C       		.byte	12
+ 826 031d 00       		.byte	0
+ 827 031e 00       		.byte	0
+ 828 031f 00       		.byte	0
+ 829 0320 00       		.byte	0
+ 830 0321 00       		.byte	0
+ 831 0322 02       		.byte	2
+ 832 0323 12       		.byte	18
+ 833 0324 04       		.byte	4
+ 834 0325 04       		.byte	4
+ 835 0326 04       		.byte	4
+ 836 0327 04       		.byte	4
+ 837 0328 00       		.byte	0
+ 838 0329 00       		.byte	0
+ 839 032a 00       		.byte	0
+ 840 032b 01       		.byte	1
+ 841 032c 00       		.byte	0
+ 842 032d 00       		.byte	0
+ 843 032e 00       		.byte	0
+ 844 032f 00       		.byte	0
+ 845 0330 00       		.byte	0
+ 846 0331 00       		.byte	0
+ 847 0332 40       		.byte	64
+ 848 0333 02       		.byte	2
+ 849 0334 00       		.byte	0
+ 850 0335 10       		.byte	16
+ 851 0336 30       		.byte	48
+ 852 0337 10       		.byte	16
+ 853 0338 00       		.byte	0
+ 854 0339 10       		.byte	16
+ 855 033a 10       		.byte	16
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 16
+
+
+ 856 033b 12       		.byte	18
+ 857 033c 00       		.byte	0
+ 858 033d 00       		.byte	0
+ 859 033e 00       		.byte	0
+ 860 033f 00       		.byte	0
+ 861 0340 00       		.byte	0
+ 862 0341 00       		.byte	0
+ 863 0342 00       		.byte	0
+ 864 0343 00       		.byte	0
+ 865 0344 00       		.byte	0
+ 866 0345 00       		.byte	0
+ 867 0346 00       		.byte	0
+ 868 0347 00       		.byte	0
+ 869 0348 00       		.byte	0
+ 870 0349 00       		.byte	0
+ 871 034a 00       		.byte	0
+ 872 034b 00       		.byte	0
+ 873 034c B0       		.byte	-80
+ 874 034d 00       		.byte	0
+ 875 034e 40       		.byte	64
+ 876 034f B0       		.byte	-80
+ 877 0350 80       		.byte	-128
+ 878 0351 00       		.byte	0
+ 879 0352 B0       		.byte	-80
+ 880 0353 00       		.byte	0
+ 881 0354 00       		.byte	0
+ 882 0355 00       		.byte	0
+ 883 0356 00       		.byte	0
+ 884 0357 00       		.byte	0
+ 885 0358 00       		.byte	0
+ 886 0359 0B       		.byte	11
+ 887 035a 0B       		.byte	11
+ 888 035b 00       		.byte	0
+ 889 035c 00       		.byte	0
+ 890 035d 00       		.byte	0
+ 891 035e 00       		.byte	0
+ 892 035f 00       		.byte	0
+ 893              		.section	.cywolatch,"a",%progbits
+ 894              		.align	2
+ 895              		.type	cy_meta_wonvl, %object
+ 896              		.size	cy_meta_wonvl, 4
+ 897              	cy_meta_wonvl:
+ 898 0000 BC       		.byte	-68
+ 899 0001 90       		.byte	-112
+ 900 0002 AC       		.byte	-84
+ 901 0003 AF       		.byte	-81
+ 902              		.section	.cycustnvl,"a",%progbits
+ 903              		.align	2
+ 904              		.type	cy_meta_custnvl, %object
+ 905              		.size	cy_meta_custnvl, 4
+ 906              	cy_meta_custnvl:
+ 907 0000 00       		.byte	0
+ 908 0001 00       		.byte	0
+ 909 0002 40       		.byte	64
+ 910 0003 05       		.byte	5
+ 911              		.section	.cymeta,"a",%progbits
+ 912              		.align	2
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 17
+
+
+ 913              		.type	cy_metadata, %object
+ 914              		.size	cy_metadata, 12
+ 915              	cy_metadata:
+ 916 0000 00       		.byte	0
+ 917 0001 01       		.byte	1
+ 918 0002 2E       		.byte	46
+ 919 0003 16       		.byte	22
+ 920 0004 10       		.byte	16
+ 921 0005 69       		.byte	105
+ 922 0006 00       		.byte	0
+ 923 0007 01       		.byte	1
+ 924 0008 00       		.byte	0
+ 925 0009 00       		.byte	0
+ 926 000a 00       		.byte	0
+ 927 000b 00       		.byte	0
+ 928              		.section	.cyflashprotect,"a",%progbits
+ 929              		.align	2
+ 930              		.type	cy_meta_flashprotect, %object
+ 931              		.size	cy_meta_flashprotect, 256
+ 932              	cy_meta_flashprotect:
+ 933 0000 00000000 		.space	256
+ 933      00000000 
+ 933      00000000 
+ 933      00000000 
+ 933      00000000 
+ 934              		.text
+ 935              	.Letext0:
+ 936              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 937              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 938              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
+ 939              		.section	.debug_info,"",%progbits
+ 940              	.Ldebug_info0:
+ 941 0000 31010000 		.4byte	0x131
+ 942 0004 0400     		.2byte	0x4
+ 943 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 944 000a 04       		.byte	0x4
+ 945 000b 01       		.uleb128 0x1
+ 946 000c 24000000 		.4byte	.LASF17
+ 947 0010 0C       		.byte	0xc
+ 948 0011 BF010000 		.4byte	.LASF18
+ 949 0015 51010000 		.4byte	.LASF19
+ 950 0019 00000000 		.4byte	.Ldebug_line0
+ 951 001d 02       		.uleb128 0x2
+ 952 001e 01       		.byte	0x1
+ 953 001f 06       		.byte	0x6
+ 954 0020 B3010000 		.4byte	.LASF0
+ 955 0024 03       		.uleb128 0x3
+ 956 0025 00000000 		.4byte	.LASF9
+ 957 0029 01       		.byte	0x1
+ 958 002a 1D       		.byte	0x1d
+ 959 002b 2F000000 		.4byte	0x2f
+ 960 002f 02       		.uleb128 0x2
+ 961 0030 01       		.byte	0x1
+ 962 0031 08       		.byte	0x8
+ 963 0032 16000000 		.4byte	.LASF1
+ 964 0036 02       		.uleb128 0x2
+ 965 0037 02       		.byte	0x2
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 18
+
+
+ 966 0038 05       		.byte	0x5
+ 967 0039 A0010000 		.4byte	.LASF2
+ 968 003d 02       		.uleb128 0x2
+ 969 003e 02       		.byte	0x2
+ 970 003f 07       		.byte	0x7
+ 971 0040 C4000000 		.4byte	.LASF3
+ 972 0044 02       		.uleb128 0x2
+ 973 0045 04       		.byte	0x4
+ 974 0046 05       		.byte	0x5
+ 975 0047 AA010000 		.4byte	.LASF4
+ 976 004b 02       		.uleb128 0x2
+ 977 004c 04       		.byte	0x4
+ 978 004d 07       		.byte	0x7
+ 979 004e B2000000 		.4byte	.LASF5
+ 980 0052 02       		.uleb128 0x2
+ 981 0053 08       		.byte	0x8
+ 982 0054 05       		.byte	0x5
+ 983 0055 92010000 		.4byte	.LASF6
+ 984 0059 02       		.uleb128 0x2
+ 985 005a 08       		.byte	0x8
+ 986 005b 07       		.byte	0x7
+ 987 005c 06010000 		.4byte	.LASF7
+ 988 0060 04       		.uleb128 0x4
+ 989 0061 04       		.byte	0x4
+ 990 0062 05       		.byte	0x5
+ 991 0063 696E7400 		.ascii	"int\000"
+ 992 0067 02       		.uleb128 0x2
+ 993 0068 04       		.byte	0x4
+ 994 0069 07       		.byte	0x7
+ 995 006a F9000000 		.4byte	.LASF8
+ 996 006e 03       		.uleb128 0x3
+ 997 006f 1D010000 		.4byte	.LASF10
+ 998 0073 02       		.byte	0x2
+ 999 0074 18       		.byte	0x18
+ 1000 0075 24000000 		.4byte	0x24
+ 1001 0079 05       		.uleb128 0x5
+ 1002 007a 91000000 		.4byte	0x91
+ 1003 007e 8A000000 		.4byte	0x8a
+ 1004 0082 06       		.uleb128 0x6
+ 1005 0083 8A000000 		.4byte	0x8a
+ 1006 0087 5F03     		.2byte	0x35f
+ 1007 0089 00       		.byte	0
+ 1008 008a 02       		.uleb128 0x2
+ 1009 008b 04       		.byte	0x4
+ 1010 008c 07       		.byte	0x7
+ 1011 008d 48010000 		.4byte	.LASF11
+ 1012 0091 07       		.uleb128 0x7
+ 1013 0092 6E000000 		.4byte	0x6e
+ 1014 0096 08       		.uleb128 0x8
+ 1015 0097 E7000000 		.4byte	.LASF12
+ 1016 009b 03       		.byte	0x3
+ 1017 009c 1F       		.byte	0x1f
+ 1018 009d A7000000 		.4byte	0xa7
+ 1019 00a1 05       		.uleb128 0x5
+ 1020 00a2 03       		.byte	0x3
+ 1021 00a3 00000000 		.4byte	cy_meta_configecc
+ 1022 00a7 07       		.uleb128 0x7
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 19
+
+
+ 1023 00a8 79000000 		.4byte	0x79
+ 1024 00ac 05       		.uleb128 0x5
+ 1025 00ad 91000000 		.4byte	0x91
+ 1026 00b1 BC000000 		.4byte	0xbc
+ 1027 00b5 09       		.uleb128 0x9
+ 1028 00b6 8A000000 		.4byte	0x8a
+ 1029 00ba 03       		.byte	0x3
+ 1030 00bb 00       		.byte	0
+ 1031 00bc 08       		.uleb128 0x8
+ 1032 00bd D7000000 		.4byte	.LASF13
+ 1033 00c1 03       		.byte	0x3
+ 1034 00c2 98       		.byte	0x98
+ 1035 00c3 CD000000 		.4byte	0xcd
+ 1036 00c7 05       		.uleb128 0x5
+ 1037 00c8 03       		.byte	0x3
+ 1038 00c9 00000000 		.4byte	cy_meta_custnvl
+ 1039 00cd 07       		.uleb128 0x7
+ 1040 00ce AC000000 		.4byte	0xac
+ 1041 00d2 08       		.uleb128 0x8
+ 1042 00d3 3A010000 		.4byte	.LASF14
+ 1043 00d7 03       		.byte	0x3
+ 1044 00d8 A6       		.byte	0xa6
+ 1045 00d9 E3000000 		.4byte	0xe3
+ 1046 00dd 05       		.uleb128 0x5
+ 1047 00de 03       		.byte	0x3
+ 1048 00df 00000000 		.4byte	cy_meta_wonvl
+ 1049 00e3 07       		.uleb128 0x7
+ 1050 00e4 AC000000 		.4byte	0xac
+ 1051 00e8 05       		.uleb128 0x5
+ 1052 00e9 91000000 		.4byte	0x91
+ 1053 00ed F8000000 		.4byte	0xf8
+ 1054 00f1 09       		.uleb128 0x9
+ 1055 00f2 8A000000 		.4byte	0x8a
+ 1056 00f6 FF       		.byte	0xff
+ 1057 00f7 00       		.byte	0
+ 1058 00f8 08       		.uleb128 0x8
+ 1059 00f9 25010000 		.4byte	.LASF15
+ 1060 00fd 03       		.byte	0x3
+ 1061 00fe B4       		.byte	0xb4
+ 1062 00ff 09010000 		.4byte	0x109
+ 1063 0103 05       		.uleb128 0x5
+ 1064 0104 03       		.byte	0x3
+ 1065 0105 00000000 		.4byte	cy_meta_flashprotect
+ 1066 0109 07       		.uleb128 0x7
+ 1067 010a E8000000 		.4byte	0xe8
+ 1068 010e 05       		.uleb128 0x5
+ 1069 010f 91000000 		.4byte	0x91
+ 1070 0113 1E010000 		.4byte	0x11e
+ 1071 0117 09       		.uleb128 0x9
+ 1072 0118 8A000000 		.4byte	0x8a
+ 1073 011c 0B       		.byte	0xb
+ 1074 011d 00       		.byte	0
+ 1075 011e 08       		.uleb128 0x8
+ 1076 011f 0A000000 		.4byte	.LASF16
+ 1077 0123 03       		.byte	0x3
+ 1078 0124 E1       		.byte	0xe1
+ 1079 0125 2F010000 		.4byte	0x12f
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 20
+
+
+ 1080 0129 05       		.uleb128 0x5
+ 1081 012a 03       		.byte	0x3
+ 1082 012b 00000000 		.4byte	cy_metadata
+ 1083 012f 07       		.uleb128 0x7
+ 1084 0130 0E010000 		.4byte	0x10e
+ 1085 0134 00       		.byte	0
+ 1086              		.section	.debug_abbrev,"",%progbits
+ 1087              	.Ldebug_abbrev0:
+ 1088 0000 01       		.uleb128 0x1
+ 1089 0001 11       		.uleb128 0x11
+ 1090 0002 01       		.byte	0x1
+ 1091 0003 25       		.uleb128 0x25
+ 1092 0004 0E       		.uleb128 0xe
+ 1093 0005 13       		.uleb128 0x13
+ 1094 0006 0B       		.uleb128 0xb
+ 1095 0007 03       		.uleb128 0x3
+ 1096 0008 0E       		.uleb128 0xe
+ 1097 0009 1B       		.uleb128 0x1b
+ 1098 000a 0E       		.uleb128 0xe
+ 1099 000b 10       		.uleb128 0x10
+ 1100 000c 17       		.uleb128 0x17
+ 1101 000d 00       		.byte	0
+ 1102 000e 00       		.byte	0
+ 1103 000f 02       		.uleb128 0x2
+ 1104 0010 24       		.uleb128 0x24
+ 1105 0011 00       		.byte	0
+ 1106 0012 0B       		.uleb128 0xb
+ 1107 0013 0B       		.uleb128 0xb
+ 1108 0014 3E       		.uleb128 0x3e
+ 1109 0015 0B       		.uleb128 0xb
+ 1110 0016 03       		.uleb128 0x3
+ 1111 0017 0E       		.uleb128 0xe
+ 1112 0018 00       		.byte	0
+ 1113 0019 00       		.byte	0
+ 1114 001a 03       		.uleb128 0x3
+ 1115 001b 16       		.uleb128 0x16
+ 1116 001c 00       		.byte	0
+ 1117 001d 03       		.uleb128 0x3
+ 1118 001e 0E       		.uleb128 0xe
+ 1119 001f 3A       		.uleb128 0x3a
+ 1120 0020 0B       		.uleb128 0xb
+ 1121 0021 3B       		.uleb128 0x3b
+ 1122 0022 0B       		.uleb128 0xb
+ 1123 0023 49       		.uleb128 0x49
+ 1124 0024 13       		.uleb128 0x13
+ 1125 0025 00       		.byte	0
+ 1126 0026 00       		.byte	0
+ 1127 0027 04       		.uleb128 0x4
+ 1128 0028 24       		.uleb128 0x24
+ 1129 0029 00       		.byte	0
+ 1130 002a 0B       		.uleb128 0xb
+ 1131 002b 0B       		.uleb128 0xb
+ 1132 002c 3E       		.uleb128 0x3e
+ 1133 002d 0B       		.uleb128 0xb
+ 1134 002e 03       		.uleb128 0x3
+ 1135 002f 08       		.uleb128 0x8
+ 1136 0030 00       		.byte	0
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 21
+
+
+ 1137 0031 00       		.byte	0
+ 1138 0032 05       		.uleb128 0x5
+ 1139 0033 01       		.uleb128 0x1
+ 1140 0034 01       		.byte	0x1
+ 1141 0035 49       		.uleb128 0x49
+ 1142 0036 13       		.uleb128 0x13
+ 1143 0037 01       		.uleb128 0x1
+ 1144 0038 13       		.uleb128 0x13
+ 1145 0039 00       		.byte	0
+ 1146 003a 00       		.byte	0
+ 1147 003b 06       		.uleb128 0x6
+ 1148 003c 21       		.uleb128 0x21
+ 1149 003d 00       		.byte	0
+ 1150 003e 49       		.uleb128 0x49
+ 1151 003f 13       		.uleb128 0x13
+ 1152 0040 2F       		.uleb128 0x2f
+ 1153 0041 05       		.uleb128 0x5
+ 1154 0042 00       		.byte	0
+ 1155 0043 00       		.byte	0
+ 1156 0044 07       		.uleb128 0x7
+ 1157 0045 26       		.uleb128 0x26
+ 1158 0046 00       		.byte	0
+ 1159 0047 49       		.uleb128 0x49
+ 1160 0048 13       		.uleb128 0x13
+ 1161 0049 00       		.byte	0
+ 1162 004a 00       		.byte	0
+ 1163 004b 08       		.uleb128 0x8
+ 1164 004c 34       		.uleb128 0x34
+ 1165 004d 00       		.byte	0
+ 1166 004e 03       		.uleb128 0x3
+ 1167 004f 0E       		.uleb128 0xe
+ 1168 0050 3A       		.uleb128 0x3a
+ 1169 0051 0B       		.uleb128 0xb
+ 1170 0052 3B       		.uleb128 0x3b
+ 1171 0053 0B       		.uleb128 0xb
+ 1172 0054 49       		.uleb128 0x49
+ 1173 0055 13       		.uleb128 0x13
+ 1174 0056 3F       		.uleb128 0x3f
+ 1175 0057 19       		.uleb128 0x19
+ 1176 0058 02       		.uleb128 0x2
+ 1177 0059 18       		.uleb128 0x18
+ 1178 005a 00       		.byte	0
+ 1179 005b 00       		.byte	0
+ 1180 005c 09       		.uleb128 0x9
+ 1181 005d 21       		.uleb128 0x21
+ 1182 005e 00       		.byte	0
+ 1183 005f 49       		.uleb128 0x49
+ 1184 0060 13       		.uleb128 0x13
+ 1185 0061 2F       		.uleb128 0x2f
+ 1186 0062 0B       		.uleb128 0xb
+ 1187 0063 00       		.byte	0
+ 1188 0064 00       		.byte	0
+ 1189 0065 00       		.byte	0
+ 1190              		.section	.debug_aranges,"",%progbits
+ 1191 0000 14000000 		.4byte	0x14
+ 1192 0004 0200     		.2byte	0x2
+ 1193 0006 00000000 		.4byte	.Ldebug_info0
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 22
+
+
+ 1194 000a 04       		.byte	0x4
+ 1195 000b 00       		.byte	0
+ 1196 000c 0000     		.2byte	0
+ 1197 000e 0000     		.2byte	0
+ 1198 0010 00000000 		.4byte	0
+ 1199 0014 00000000 		.4byte	0
+ 1200              		.section	.debug_line,"",%progbits
+ 1201              	.Ldebug_line0:
+ 1202 0000 3D010000 		.section	.debug_str,"MS",%progbits,1
+ 1202      02003701 
+ 1202      00000201 
+ 1202      FB0E0D00 
+ 1202      01010101 
+ 1203              	.LASF9:
+ 1204 0000 5F5F7569 		.ascii	"__uint8_t\000"
+ 1204      6E74385F 
+ 1204      7400
+ 1205              	.LASF16:
+ 1206 000a 63795F6D 		.ascii	"cy_metadata\000"
+ 1206      65746164 
+ 1206      61746100 
+ 1207              	.LASF1:
+ 1208 0016 756E7369 		.ascii	"unsigned char\000"
+ 1208      676E6564 
+ 1208      20636861 
+ 1208      7200
+ 1209              	.LASF17:
+ 1210 0024 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1210      43313120 
+ 1210      352E342E 
+ 1210      31203230 
+ 1210      31363036 
+ 1211 0057 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 1211      20726576 
+ 1211      6973696F 
+ 1211      6E203233 
+ 1211      37373135 
+ 1212 008a 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1212      66756E63 
+ 1212      74696F6E 
+ 1212      2D736563 
+ 1212      74696F6E 
+ 1213              	.LASF5:
+ 1214 00b2 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1214      20756E73 
+ 1214      69676E65 
+ 1214      6420696E 
+ 1214      7400
+ 1215              	.LASF3:
+ 1216 00c4 73686F72 		.ascii	"short unsigned int\000"
+ 1216      7420756E 
+ 1216      7369676E 
+ 1216      65642069 
+ 1216      6E7400
+ 1217              	.LASF13:
+ 1218 00d7 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 1218      6574615F 
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 23
+
+
+ 1218      63757374 
+ 1218      6E766C00 
+ 1219              	.LASF12:
+ 1220 00e7 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 1220      6574615F 
+ 1220      636F6E66 
+ 1220      69676563 
+ 1220      6300
+ 1221              	.LASF8:
+ 1222 00f9 756E7369 		.ascii	"unsigned int\000"
+ 1222      676E6564 
+ 1222      20696E74 
+ 1222      00
+ 1223              	.LASF7:
+ 1224 0106 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1224      206C6F6E 
+ 1224      6720756E 
+ 1224      7369676E 
+ 1224      65642069 
+ 1225              	.LASF10:
+ 1226 011d 75696E74 		.ascii	"uint8_t\000"
+ 1226      385F7400 
+ 1227              	.LASF15:
+ 1228 0125 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 1228      6574615F 
+ 1228      666C6173 
+ 1228      6870726F 
+ 1228      74656374 
+ 1229              	.LASF14:
+ 1230 013a 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 1230      6574615F 
+ 1230      776F6E76 
+ 1230      6C00
+ 1231              	.LASF11:
+ 1232 0148 73697A65 		.ascii	"sizetype\000"
+ 1232      74797065 
+ 1232      00
+ 1233              	.LASF19:
+ 1234 0151 433A5C55 		.ascii	"C:\\Users\\slavi\\Documents\\PSoC Creator\\Workspac"
+ 1234      73657273 
+ 1234      5C736C61 
+ 1234      76695C44 
+ 1234      6F63756D 
+ 1235 017f 6530325C 		.ascii	"e02\\Design01.cydsn\000"
+ 1235      44657369 
+ 1235      676E3031 
+ 1235      2E637964 
+ 1235      736E00
+ 1236              	.LASF6:
+ 1237 0192 6C6F6E67 		.ascii	"long long int\000"
+ 1237      206C6F6E 
+ 1237      6720696E 
+ 1237      7400
+ 1238              	.LASF2:
+ 1239 01a0 73686F72 		.ascii	"short int\000"
+ 1239      7420696E 
+ 1239      7400
+ARM GAS  C:\Users\slavi\AppData\Local\Temp\cc6p9hN1.s 			page 24
+
+
+ 1240              	.LASF4:
+ 1241 01aa 6C6F6E67 		.ascii	"long int\000"
+ 1241      20696E74 
+ 1241      00
+ 1242              	.LASF0:
+ 1243 01b3 7369676E 		.ascii	"signed char\000"
+ 1243      65642063 
+ 1243      68617200 
+ 1244              	.LASF18:
+ 1245 01bf 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 1245      72617465 
+ 1245      645F536F 
+ 1245      75726365 
+ 1245      5C50536F 
+ 1246              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
